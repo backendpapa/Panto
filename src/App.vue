@@ -45,7 +45,7 @@
 
 <script>
 import "./css/fonts.css"
-import "./css/size.css"
+// import "./css/size.css"
 
 export default {
   name: 'App',
