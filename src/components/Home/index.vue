@@ -12,7 +12,10 @@
 
       <!-- Why purchase -->
       <Why />
+      <!-- Best -->
+      <Best />
     </div>
+
   </div>
 </template>
 
@@ -20,6 +23,7 @@
 import Desktop from "./Desktop/hero.desktop.vue";
 import Mobile from "./Mobile/hero.mobile.vue";
 import Why from "./why.home.vue";
+import Best from "./best.home.vue"
 // import Tablet from './Tablet/hero.tablet.vue'
 export default {
   components: {
@@ -27,6 +31,7 @@ export default {
     Mobile,
     // Tablet
     Why,
+    Best
   },
 };
 </script>
