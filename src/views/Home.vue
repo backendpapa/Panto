@@ -1,15 +1,17 @@
 <template>
-  <hello-world />
+  <div>
+    <p class="font-bold" style="font-size:80px">djdj</p>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      
     },
   }
 </script>

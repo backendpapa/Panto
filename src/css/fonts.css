@@ -1,0 +1,21 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+#app{
+    font-family: 'Gilroy-Light', sans-serif;
+}
+body,html{
+    font-family: 'Gilroy-Light', sans-serif;
+}
+
+.font-bold{
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+.font-heavy{
+    font-family: 'Gilroy-Heavy', sans-serif;
+}
+.font-medium{
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+.font-regular{
+    font-family: 'Gilroy-Regular', sans-serif;
+}

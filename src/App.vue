@@ -44,6 +44,7 @@
 </template>
 
 <script>
+import "./css/fonts.css"
 
 export default {
   name: 'App',
