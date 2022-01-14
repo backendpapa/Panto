@@ -1,41 +1,28 @@
 <template>
   <v-app>
-    <!-- <v-app-bar
-      app
-      color="primary"
-      dark
+    <v-app-bar
+      class="pa-4"
+      color="transparent"
+      flat
+      fixed
     >
       <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+        <p class="font-heavy white--text font-title">Panto</p>
       </div>
 
       <v-spacer></v-spacer>
+        <v-btn text  style="text-transform:none;color:white" class="font-weight-bold" plain>Furniture <v-icon>mdi-chevron-down</v-icon></v-btn>
+         <v-btn text  style="text-transform:none;color:white" class="font-weight-bold" plain>Shop</v-btn>
+         <v-btn text  style="text-transform:none;color:white" class="font-weight-bold" plain>About Us</v-btn>
+         <v-btn text  style="text-transform:none;color:white" class="font-weight-bold" plain>Contact</v-btn>
+      <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar> -->
+     <v-btn plain icon>
+       
+       <v-icon color="white">mdi-shopping</v-icon>
+      <v-avatar size="15" color="orange" style="font-size:108;position:absolute;right:15%;top:-20%" class="white--text font-bold">2</v-avatar>
+     </v-btn>
+    </v-app-bar>
 
     <v-main>
       <router-view/>

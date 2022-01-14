@@ -20,6 +20,9 @@ body,html{
     font-family: 'Gilroy-Regular', sans-serif;
 }
 
+.font-title{
+    font-size: 35px;
+}
 
 .font-size-0 { font-size: 91px; }
 .font-size-1 { font-size: 90px; }
@@ -145,4 +148,7 @@ body,html{
 	.font-size-10 { font-size: 12px; }
 	.font-size-11 { font-size: 12px; }
 	.font-size-12 { font-size: 12px; }
+    .font-title{
+        font-size: 30px;
+    }
 }
