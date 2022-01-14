@@ -1,4 +1,5 @@
 # panto
+This a VueJS project written using Vuetify. An Interior Decoration And Furniture Selling Website.
 
 ## Project setup
 ```
@@ -19,6 +20,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
