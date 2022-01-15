@@ -43,7 +43,7 @@
       </v-row>
 <br>
       <div>
-        <carousel loop   :nav="true" items="4" autoWidth style="height:70vh">
+        <carousel loop    dots nav items="4" autoWidth class="carousel">
          <v-card v-for="i in products" :key="i.category" flat class=" mr-3 carousel-card" width="230" style="border-radius:20px;position:relative;margin:15%"  color="#FAFAFA">
             <!-- <div class="" > -->
                
@@ -67,6 +67,8 @@
          </v-card>
         </carousel>
       </div>
+      <br>
+      <p class="text-center"><v-btn color="orange" class="font-regular" style="text-transform:none" text>View all <v-icon>mdi-arrow-right</v-icon></v-btn></p>
     </v-container>
   </div>
 </template>
@@ -136,10 +138,16 @@ export default {
     height:55vh;
     
 }
+.carousel{
+    height:60vh !important;
+}
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .carousel-card{
-    height:30vh !important;
+    height:40vh !important;
+}
+.carousel{
+    height:45vh !important;
 }
 }
 </style>
