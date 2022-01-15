@@ -14,6 +14,11 @@
       <Why />
       <!-- Best -->
       <Best />
+      <!-- Features -->
+      <Features />
+      <!-- Materials -->
+      <br>
+      <Materials />
     </div>
 
   </div>
@@ -24,6 +29,8 @@ import Desktop from "./Desktop/hero.desktop.vue";
 import Mobile from "./Mobile/hero.mobile.vue";
 import Why from "./why.home.vue";
 import Best from "./best.home.vue"
+import Features from './features.home.vue'
+import Materials from './materials.home.vue'
 // import Tablet from './Tablet/hero.tablet.vue'
 export default {
   components: {
@@ -31,7 +38,9 @@ export default {
     Mobile,
     // Tablet
     Why,
-    Best
+    Best,
+    Features,
+    Materials
   },
 };
 </script>
