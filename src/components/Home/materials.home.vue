@@ -25,8 +25,8 @@
              
               <v-row no-gutters>
                   <v-col cols="4">
-                      <p><v-img style="border-radius:20px" src="../../assets/images/1.png"></v-img></p>
-                      <p><v-img style="border-radius:20px" src="../../assets/images/2.png"></v-img></p>
+                      <p><v-img eager style="border-radius:20px" src="../../assets/images/1.png"></v-img></p>
+                      <p><v-img eager style="border-radius:20px" src="../../assets/images/2.png"></v-img></p>
                   </v-col>
                   <v-col cols="6">
                       <div style="margin-right:-30%">
