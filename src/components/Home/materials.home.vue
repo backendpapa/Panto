@@ -16,7 +16,7 @@
                   <p class=" font-size-12 font-regular" style="color:#E58411">MATERIALS</p>
               <p class="font-size-2 font-bold" style="line-height:1" >Very Serious Materials For Making Furniture</p>
               <p class="" style="margin-right:10%">Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price</p>
-              <p><v-btn text plain style="text-transform:none" class="font-size-12" small color="orange darken-5">More info <v-icon>mdi-arrow-right</v-icon></v-btn></p>
+              <p><v-btn text plain style="text-transform:none" class="font-size-12 " small color="orange darken-5">More info <v-icon>mdi-arrow-right</v-icon></v-btn></p>
              </div>
             </v-row>    
            </v-container>
@@ -25,7 +25,8 @@
              
               <v-row no-gutters>
                   <v-col cols="4">
-                      <!-- <p><v-img></v-img></p> -->
+                      <p><v-img eager style="border-radius:20px" src="../../assets/images/1.png"></v-img></p>
+                      <p><v-img eager style="border-radius:20px" src="../../assets/images/2.png"></v-img></p>
                   </v-col>
                   <v-col cols="6">
                       <div style="margin-right:-30%">
