@@ -59,6 +59,54 @@
     <v-main>
       <router-view />
     </v-main>
+
+     <v-footer padless>
+   <v-container>
+      <v-col
+      
+      style="padding:5% 0"
+      cols="12"
+    >
+      <v-row align="center" justify="center" no-gutters>
+        <v-col cols="12" xl="5" lg="5">
+          <p class="font-bold font-size-2">Panto</p>
+          <p class="font-size-12">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</p>
+        </v-col>
+        <v-col cols="4" xl="2" lg="2">
+          <p class="orange--text font-size-12 font-bold">Services</p>
+          <a href="" style="text-decoration:none;" class="black--text font-size-12">Email Marketing</a><br>
+          <a href="" style="text-decoration:none;" class="black--text font-size-12">Campaigns</a><br>
+          <a href="" style="text-decoration:none;" class="black--text font-size-12">Branding</a><br>
+        </v-col>
+         <v-col cols="4" xl="2" lg="2">
+          <p class="orange--text font-size-12 font-bold">Furniture</p>
+          <a href="" style="text-decoration:none;" class="black--text font-size-12">Beds</a><br>
+          <a href="" style="text-decoration:none;" class="black--text font-size-12">Chair</a><br>
+          <a href="" style="text-decoration:none;" class="black--text font-size-12">All</a><br>
+        </v-col>
+         <v-col cols="4" xl="2" lg="2">
+          <p class="orange--text font-size-12 font-bold">Follow us</p>
+          <a href="" style="text-decoration:none;" class="black--text font-size-12"><v-icon size="15" class="mt-n1">mdi-facebook</v-icon> Facebook</a><br>
+         <a href="" style="text-decoration:none;" class="black--text font-size-12"><v-icon size="15" class="mt-n1">mdi-twitter</v-icon> Twitter</a><br>
+         <a href="" style="text-decoration:none;" class="black--text font-size-12"><v-icon size="15" class="mt-n1">mdi-instagram</v-icon> Instagram</a><br>
+        </v-col> 
+        <v-col cols="12" xl="1" lg="1" />
+      </v-row>
+
+    </v-col>
+    <v-row align="center" no-gutters>
+      <v-col cols="12" xl="3" lg="3"><p class="mb-n1 centraled"  style="font-size:10px">Copyright &#169; 2022</p></v-col>
+      <v-col cols="12" xl="6" lg="6"></v-col>
+      <v-col cols="12" xl="3" lg="3">
+        <div style="display:flex;justify-content:center;align-item:center;height:100%">
+          <a href="" style="text-decoration:none;font-size:10px" class="black--text font-bold mr-4">Terms & Conditiions</a>
+          <a href="" style="text-decoration:none;font-size:10px" class="black--text font-bold">Privacy Policy</a>
+        </div>
+      </v-col>
+
+    </v-row>
+   </v-container>
+  </v-footer>
   </v-app>
 </template>
 
@@ -92,4 +140,13 @@ export default {
 };
 </script>
 <style>
+.centraled{
+    text-align: left;
+  }
+@media screen  and (max-width:500px) {
+  .centraled{
+    text-align: center;
+    padding-bottom: 7px !important;
+  }
+}
 </style>
