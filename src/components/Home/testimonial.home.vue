@@ -40,6 +40,10 @@
         </carousel>
       </div>
       </v-container>
+      <br>
+      <br>
+      <br>
+    <br>
   </div>
 </template>
 
@@ -82,7 +86,7 @@ export default {
     margin-top:190% !important;
 }
 .carousel-card{
-    height:45vh;
+    height:35vh;
     /* background:url('../../assets/images/a1.png');
     background-size: cover; */
     
