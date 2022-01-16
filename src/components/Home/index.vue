@@ -19,6 +19,8 @@
       <!-- Materials -->
       <br>
       <Materials />
+      <br>
+      <Testimonial />
     </div>
 
   </div>
@@ -31,6 +33,7 @@ import Why from "./why.home.vue";
 import Best from "./best.home.vue"
 import Features from './features.home.vue'
 import Materials from './materials.home.vue'
+import Testimonial from './testimonial.home.vue'
 // import Tablet from './Tablet/hero.tablet.vue'
 export default {
   components: {
@@ -40,7 +43,8 @@ export default {
     Why,
     Best,
     Features,
-    Materials
+    Materials,
+    Testimonial
   },
 };
 </script>
