@@ -3,10 +3,10 @@ This a VueJS UI project written using Vuetify. An Interior Decoration And Furnit
 
 Task to work on in phase 2
 
-- [] Animations
-- [] Modity tab
-- [] Add a cart section
-- [] Update navbar animation
+- [ ] Animations
+- [ ] Modity tab
+- [ ] Add a cart section
+- [ ] Update navbar animation
 
 
 
